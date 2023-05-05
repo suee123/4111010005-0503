@@ -1,0 +1,83 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>0503</title>
+<style type="text/css">
+.box1 {
+    width: 200px;
+    height: 200px;
+    background-color: #DC9597;
+    transition: all 500ms ease-in-out 0s;
+    -webkit-transition: all 500ms ease-in-out 0s;
+    -o-transition: all 500ms ease-in-out 0s;
+}
+.box1:hover {
+    background-color: #345494;
+    width: 500px;
+    height: 500px;
+    margin-top: 12px;
+    margin-right: 12px;
+    margin-bottom: 12px;
+    margin-left: 12px;
+    transform: scale(2);
+    -webkit-transform: scale(2);
+    -o-transform: scale(2);
+}
+
+body {
+    display: flex;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+}
+.box2 {
+    width: 200px;
+    height: 200px;
+    background-color: #A4AEEC;
+    transition: all 500ms ease-in-out 0s;
+    -webkit-transition: all 500ms ease-in-out 0s;
+    -o-transition: all 500ms ease-in-out 0s;
+	
+}
+   
+
+.box2:active {
+    background-color: #C9F3D2;
+    width: 100px;
+    height: 100px;
+    margin-top: 12px;
+    margin-right: 12px;
+    margin-bottom: 12px;
+    margin-left: 12px;
+    transform: translate(50px, 100px);
+    -webkit-transform: translate(50px, 100px);
+    -o-transform: translate(50px, 100px);
+}
+
+.box3:hover {
+    margin-top: 12px;
+    margin-right: 12px;
+    margin-bottom: 12px;
+    margin-left: 12px;
+    transform: rotate(270deg);
+    -webkit-transform: rotate(270deg);
+    -o-transform: rotate(270deg);	
+}
+.box3 {
+    width: 200px;
+    height: 200px;
+    background-color: #E0E7A1;
+    transition: all 500ms ease-in-out 1000ms;
+    -webkit-transition: all 500ms ease-in-out 1000ms;
+    -o-transition: all 500ms ease-in-out 1000ms;
+}
+</style>
+</head>
+
+<body>
+<div class="box1">"box1"</div>
+<div class="box2">"box2:tap to translate"</div>
+<div class="box3">"box3"</div>
+</body>
+</html>
